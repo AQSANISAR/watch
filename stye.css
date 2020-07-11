@@ -1,0 +1,86 @@
+body{
+    background-image: url(https://images.unsplash.com/photo-1528459801416-a9e53bbf4e17?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=655&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+  
+
+}
+@font-face{
+    font-family: 'OleoScript';
+    src: url('OleoScript-Bold.ttf');
+ 
+     
+}
+.container{
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+    
+}
+#ol{
+    text-decoration: underline;
+    text-align: center;
+    font-family: OleoScript;
+   font-size: 60px;
+   color:  black;
+ 
+   
+  
+}
+
+
+#cmdl{
+
+    height:420px;
+    width: 340px;
+
+    
+
+  
+
+
+
+}
+
+
+@font-face{
+    font-family: 'RussoOne';
+    src: url('RussoOne-Regular.ttf');
+}
+ h2{
+    display: inline-block;
+    font-size: 35px;
+    font-family: RussoOne;
+}
+.fg{
+    /* margin-left: 655px; */
+    margin-top: -208px;
+
+}
+button{
+cursor: pointer;
+justify-content: center;
+
+    margin-top: 140px;
+    width: 75px;
+    height: 30px;
+    font-size: 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif
+    
+}
+@media screen and (max-width:321px){
+    button{
+        width: 50px;
+        height: 20px;
+        font-size: 11px;
+    }
+}
+/* .nm{
+    margin-left: 470px;
+   ;
+} */
